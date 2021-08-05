@@ -12,6 +12,9 @@ parser.add_argument('logdir', type=str, help='directory where log files are stor
 parser.add_argument('--html', action='store_true', default=False, help='generate html output')
 parser.add_argument('--outdir', type=str, default='.', help='output directory for csv files (default: %(default)s)')
 parser.add_argument('--verbose', action='store_true', default=False, help='verbose output')
+parser.add_argument('--allprev', action='store_true', default=False, help='Report all previous log entries')
+parser.add_argument('--allprevTime', type=str, help='Base time for all previous')
+parser.add_argument('--allprevNsec', type=int, help='Number of seconds for all previous')
 args = parser.parse_args()
 
 
@@ -23,10 +26,19 @@ if args.side not in ['R', 'L']:
 
 
 def logfilename(process, num=0):
+#   print('process = ' + process, file=sys.stderr)
     y = args.day[0:4]
     m = args.day[4:6]
     d = args.day[6:8]
-    path = '%s/%s/%s/%s.%s.%s%04d.log' % (y, m, d, process, args.side, args.day, num)
+    if ( process == "housekeeperTel" ):
+      nameExt = args.side + "_TELEMETRY"
+      newProcess = "housekeeper"
+      path = '%s/%s/%s/%s.%s.%s%04d.tel' % \
+             (y, m, d, newProcess, nameExt, args.day, num)
+#     print('path = ' + path, file=sys.stderr)
+    else:
+      path = '%s/%s/%s/%s.%s.%s%04d.log' % \
+             (y, m, d, process, args.side, args.day, num)
     return os.path.join(args.logdir, path)
 
 def log_timestamp(line):
@@ -61,7 +73,9 @@ def logfile(name, grep=None):
                 cmd = 'grep "%s" %s' % (grep, filename)
                 return os.popen(cmd)
             else:
-                return file(filename, 'r')
+#               return file(filename, 'r')   from original = broken
+                cmd = 'cat %s' % (filename)
+                return os.popen(cmd)
 
         if os.path.exists(filenamegz):
             if args.verbose:
@@ -92,7 +106,11 @@ def search(name, string=None, mindiff=1, getDict=False):
                     fields = f.split('|')
                     m = p.search(fields[4])
                     if m:
-                        found2[now] += m.group(1)
+                        if ( string == "BCUDigitalIOOvercurrent" ):
+                          if ( "1 1 1" in f ):
+                            found2[now] += m.group(1)
+                        else:
+                          found2[now] += m.group(1)
                 except IndexError as e:
                     print('Malformed line: '+f)
         else:
@@ -129,6 +147,10 @@ class Event:
     def htmlRow(self):
         return '<tr><td>%s</td><td>%s</td><td>%s</td></tr>' % ( timeStr(self.t), self.name, self.details)
 
+class allPrevEvent:
+    def __init__(self, t, details=None):
+        self.t = t
+        self.details = details
 
 class SkipFrameEvent(Event):
     def __init__(self, t, details=''):
@@ -193,7 +215,36 @@ class FaultRecoveryEvent(Event):
     @staticmethod
     def fromLogLine(line):
         t = log_timestamp(line)
-        return FaultRecoveryEvent( t, 'Fault recovrey command issued')
+        return FaultRecoveryEvent( t, 'Fault recovery command issued')
+
+
+class OverCurrentEvent(Event):
+    def __init__(self, t, details):
+        Event.__init__( self, 'OverCurrent', t, details)
+
+    @staticmethod
+    def fromLogLine(line):
+        t = log_timestamp(line)
+        return OverCurrentEvent( t, 'OverCurrent detected')
+
+
+class ArbCmd:
+    def __init__(self, name, args='', start_time=None, end_time=None, success=None, errstr=''):
+        self.name = name
+        self.args = args
+        self.start_time = start_time
+        self.end_time = end_time
+        self.success = success
+        self.errstr = errstr
+
+class ForceOutOfRngEvent(Event):
+    def __init__(self, t, details):
+        Event.__init__( self, 'ForceOutOfRng', t, details)
+
+    @staticmethod
+    def fromLogLine(line):
+        t = log_timestamp(line)
+        return ForceOutOfRngEvent( t, 'Force Out of Range')
 
 
 class ArbCmd:
@@ -823,8 +874,63 @@ def update_output_csv(cmds):
         csv.writer(csvfile, delimiter=',').writerows(data)
 
 
+def reportPrev( t, nsec ):
+  allPrev = []
+  for name in [ 'AOARB', 'housekeeper', 'idlctrl', 'housekeeperTel',
+                'adamhousekeeper', 'mirrorctrl' ]:
+    prevFound = getPrevFromOneLog( name, t, nsec )
+    allPrev += prevFound
+  outputPrev( allPrev )
+
+
+def getPrevFromOneLog( name, t, nsec ):
+  prevFromOneLog = []
+  found = logfile(name, grep=' ')   # every line contains a space
+# print('found = ' + found, file=sys.stderr)
+  for f in found:
+    now = log_timestamp(f)
+    start = t-nsec
+    end   = t
+#   print('start, end = %d, %d' % (start,end), file=sys.stderr)
+    if ( start < now < end ):
+      prevFromOneLog.append( allPrevEvent( now, f ) )
+  return prevFromOneLog
+
+
+def byTime( ae ):  return ae.t
+def outputPrev( allPrev ):
+  for ev in sorted( allPrev, key=byTime ):
+    print( ev.details )
+
 ##################
 # Text/html output
+
+if args.allprev:
+
+#
+#  Form a string with the time we want in a format that resembles a
+#  line from a log file so that we can re-use the log_timestamp function.
+#
+  y = args.day[0:4]
+  m = args.day[4:6]
+  d = args.day[6:8]
+  eventTime = y + "-" + m + "-" + d + " " + args.allprevTime
+
+  prePad  = "a|a|a|"
+  postPad = "|z"
+  t = log_timestamp( prePad + eventTime + postPad )
+# print( ( "%s internal format = %s" ) % ( eventTime, t ), file=sys.stderr )
+
+#
+#  Call reportPrev with specified time and number of seconds to go back in logs
+#
+  nsec = args.allprevNsec
+  print( "Reporting all log entries " + str(nsec) + " prior to " +
+          eventTime + ":\n\n" )
+  reportPrev( t, nsec )
+
+  exit()
+
 
 if args.html:
     htmltitle = 'AO commands statistics for %s' % args.day
@@ -870,8 +976,11 @@ for name, string, klass in [
         ('housekeeper', 'FUNCTEMERGENCYST', RIPEvent),
         ('fastdiagn', 'disabling coils', CoilDisableEvent),
         ('housekeeper', 'disabling coils', CoilDisableEvent),
-        ('idlctrl', 'fsm_fault_recovery', FaultRecoveryEvent )
+        ('idlctrl', 'fsm_fault_recovery', FaultRecoveryEvent ),
+        ('housekeeperTel', 'BCUDigitalIOOvercurrent', OverCurrentEvent )
         ]:
+#  Leaving these out for now:
+#       ('idlctrl', '> Forces out', ForceOutOfRngEvent )
 
     found = search(name, string, mindiff=120)
     events += map(klass.fromLogLine, found)

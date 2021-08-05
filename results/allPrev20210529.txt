@@ -1,0 +1,921 @@
+Reporting all log entries 50 prior to 2021-05-29 08:07:08.297000:
+
+
+MirrorCtrl_76334   |ERR|      1033|2021-05-29 08:06:18.470573|             MAIN > ******** FAILED PACKET FROM BCU 8 *******
+
+MirrorCtrl_76334   |ERR|      1034|2021-05-29 08:06:18.470682|             MAIN > ******** FAILED PACKET FROM BCU 10 *******
+
+MirrorCtrl_76334   |ERR|      1035|2021-05-29 08:06:18.472109|             MAIN > ******** FAILED PACKET FROM BCU 5 *******
+
+MirrorCtrl_76334   |ERR|      1036|2021-05-29 08:06:18.472171|             MAIN > ******** FAILED PACKET FROM BCU 9 *******
+
+MirrorCtrl_76334   |ERR|      1037|2021-05-29 08:06:18.472172|             MAIN > ******** FAILED PACKET FROM BCU 7 *******
+
+MirrorCtrl_76334   |ERR|      1038|2021-05-29 08:06:18.472805|             MAIN > ******** FAILED PACKET FROM BCU 6 *******
+
+adamHousekeeper_76311|INF|     24123|2021-05-29 08:06:18.838967|             MAIN > Windspeed 1.903608m/s, below 3.000000m/s
+
+adamHousekeeper_76311|INF|     24124|2021-05-29 08:06:18.838999|             MAIN > Disabling TSS
+
+adamHousekeeper_76311|INF|     24125|2021-05-29 08:06:18.839011|      ADAM-MODBUS > AdamModbus: disabling tss...
+
+adamHousekeeper_76311|INF|     24126|2021-05-29 08:06:18.848752|             FAST > Processed     1 cycles of    23 vars in   1.04 s ( 0.962 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24127|2021-05-29 08:06:18.866386|             MAIN > Adam in status:  1:1:0:1:1:0:0:0
+
+adamHousekeeper_76311|INF|     24128|2021-05-29 08:06:18.884363|             MAIN > Adam out status: 1:1:1:0:1:0:0:0
+
+MirrorCtrl_76334   |ERR|      1039|2021-05-29 08:06:18.918671|             MAIN > ******** FAILED PACKET FROM BCU 2 *******
+
+housekeeper_76462  |ERR|      7922|2021-05-29 08:06:19.150384|             MAIN > Timeout reading BCUs:  [CommandSenderTimeoutException] Timeout expired [HouseKeeper.cpp:2636]
+
+adamHousekeeper_76311|INF|     24129|2021-05-29 08:06:19.885312|             FAST > Processed     1 cycles of    23 vars in   1.04 s ( 0.965 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24130|2021-05-29 08:06:19.893865|             MAIN > Adam in status:  1:1:0:0:1:0:0:0
+
+adamHousekeeper_76311|INF|     24131|2021-05-29 08:06:19.911959|             MAIN > Adam out status: 1:1:1:0:1:0:0:0
+
+MirrorCtrl_76334   |ERR|      1040|2021-05-29 08:06:19.972358|             MAIN > ******** FAILED PACKET FROM BCU 8 *******
+
+MirrorCtrl_76334   |ERR|      1041|2021-05-29 08:06:19.972479|             MAIN > ******** FAILED PACKET FROM BCU 10 *******
+
+MirrorCtrl_76334   |ERR|      1042|2021-05-29 08:06:19.973880|             MAIN > ******** FAILED PACKET FROM BCU 5 *******
+
+MirrorCtrl_76334   |ERR|      1043|2021-05-29 08:06:19.974028|             MAIN > ******** FAILED PACKET FROM BCU 9 *******
+
+MirrorCtrl_76334   |ERR|      1044|2021-05-29 08:06:19.974054|             MAIN > ******** FAILED PACKET FROM BCU 7 *******
+
+MirrorCtrl_76334   |ERR|      1045|2021-05-29 08:06:19.974543|             MAIN > ******** FAILED PACKET FROM BCU 6 *******
+
+MirrorCtrl_76334   |ERR|      1046|2021-05-29 08:06:19.974630| BCUCOMMANDHANDLER_5_P3 > BcuCommandHandler::handleBcuReply: REQUEST COMPLETED but FAILED :-(
+
+adamHousekeeper_76311|INF|     24132|2021-05-29 08:06:20.912621|             FAST > Processed     1 cycles of    23 vars in   1.03 s ( 0.973 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24133|2021-05-29 08:06:20.928447|             MAIN > Adam in status:  1:1:0:0:1:0:0:0
+
+adamHousekeeper_76311|INF|     24134|2021-05-29 08:06:20.945410|             MAIN > Adam out status: 1:1:1:0:1:0:0:0
+
+housekeeper_76462  |ERR|      7923|2021-05-29 08:06:21.150733|             MAIN > Timeout reading BCUs:  [CommandSenderTimeoutException] Timeout expired [HouseKeeper.cpp:2636]
+
+MirrorCtrl_76334   |ERR|      1047|2021-05-29 08:06:21.420718|             MAIN > ******** FAILED PACKET FROM BCU 2 *******
+
+MirrorCtrl_76334   |ERR|      1048|2021-05-29 08:06:21.473313|             MAIN > ******** FAILED PACKET FROM BCU 8 *******
+
+MirrorCtrl_76334   |ERR|      1049|2021-05-29 08:06:21.474088|             MAIN > ******** FAILED PACKET FROM BCU 10 *******
+
+MirrorCtrl_76334   |ERR|      1050|2021-05-29 08:06:21.475640|             MAIN > ******** FAILED PACKET FROM BCU 5 *******
+
+MirrorCtrl_76334   |ERR|      1051|2021-05-29 08:06:21.475877|             MAIN > ******** FAILED PACKET FROM BCU 9 *******
+
+MirrorCtrl_76334   |ERR|      1052|2021-05-29 08:06:21.475966|             MAIN > ******** FAILED PACKET FROM BCU 7 *******
+
+MirrorCtrl_76334   |ERR|      1053|2021-05-29 08:06:21.476065| BCUCOMMANDHANDLER_5_P3 > BcuCommandHandler::handleBcuReply: REQUEST COMPLETED but FAILED :-(
+
+MirrorCtrl_76334   |ERR|      1054|2021-05-29 08:06:21.476272| BCUCOMMANDHANDLER_5_P3 > Client timed-out: impossible to attach to the shared memory !
+
+MirrorCtrl_76334   |ERR|      1055|2021-05-29 08:06:21.476304|             MAIN > ******** FAILED PACKET FROM BCU 6 *******
+
+MirrorCtrl_76334   |ERR|      1056|2021-05-29 08:06:21.476332| BCUCOMMANDHANDLER_5_P3 > BcuCommandHandler::handleBcuRequest: REQUEST FAILED
+
+adamHousekeeper_76311|INF|     24135|2021-05-29 08:06:21.945950|             FAST > Processed     1 cycles of    23 vars in   1.03 s ( 0.968 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24136|2021-05-29 08:06:21.959721|             MAIN > Adam in status:  1:1:0:0:1:0:0:0
+
+adamHousekeeper_76311|INF|     24137|2021-05-29 08:06:21.976547|             MAIN > Adam out status: 1:1:1:0:1:0:0:0
+
+python_95334       |INF|         1|2021-05-29 08:06:22.106086|             MAIN > lbti CenterStar: 0
+
+python_95334       |INF|         2|2021-05-29 08:06:22.106134|             MAIN > lbti CenterPupils: 1
+
+python_95334       |INF|         3|2021-05-29 08:06:22.106163|             MAIN > lbti CheckFlux: 0
+
+python_95334       |INF|         4|2021-05-29 08:06:22.106198|             MAIN > lbti CloseLoop: 1
+
+python_95334       |INF|         5|2021-05-29 08:06:22.106214|             MAIN > lbti OptimizeGain: 1
+
+python_95334       |INF|         6|2021-05-29 08:06:22.106245|             MAIN > lbti ApplyOpticalGain: 0
+
+python_95334       |INF|         7|2021-05-29 08:06:22.106264|             MAIN > flao CenterStar: 1
+
+python_95334       |INF|         8|2021-05-29 08:06:22.106281|             MAIN > flao CenterPupils: 1
+
+python_95334       |INF|         9|2021-05-29 08:06:22.106298|             MAIN > flao CheckFlux: 1
+
+python_95334       |INF|        10|2021-05-29 08:06:22.106315|             MAIN > flao CloseLoop: 1
+
+python_95334       |INF|        11|2021-05-29 08:06:22.106331|             MAIN > flao OptimizeGain: 1
+
+python_95334       |INF|        12|2021-05-29 08:06:22.106352|             MAIN > flao ApplyOpticalGain: 1
+
+python_95334       |INF|        13|2021-05-29 08:06:22.106392|             MAIN > AdSec EndPoint: adsecarb.L:tcp -h 127.0.0.1 -p 15007
+
+python_95334       |INF|        14|2021-05-29 08:06:22.106432|             MAIN > FLAOWFS EndPoint: wfsarb.L:tcp -h 192.168.34.100 -p 15008
+
+python_95334       |INF|        15|2021-05-29 08:06:22.106483|             MAIN > LBTIWFS EndPoint: wfsarb.L:tcp -h 192.168.148.248 -p 15008
+
+python_95334       |INF|        16|2021-05-29 08:06:22.106592|             MAIN > RTDB EndPoint: Default
+
+python_95334       |INF|        17|2021-05-29 08:06:22.107025|             MAIN > AOARB.L - Vers. 1.0 listening on port 16001. [PID: 95334]
+
+python_95334       |INF|        18|2021-05-29 08:06:22.259307|             MAIN > Adding client: FLAOGUI.L
+
+python_95334       |INF|        19|2021-05-29 08:06:22.773388|             MAIN > Adding client: FLAOGUI.L
+
+adamHousekeeper_76311|INF|     24138|2021-05-29 08:06:22.977381|             FAST > Processed     1 cycles of    23 vars in   1.03 s (  0.97 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+MirrorCtrl_76334   |ERR|      1057|2021-05-29 08:06:22.977844|             MAIN > ******** FAILED PACKET FROM BCU 7 *******
+
+adamHousekeeper_76311|INF|     24139|2021-05-29 08:06:22.991976|             MAIN > Adam in status:  1:1:0:0:1:0:0:0
+
+adamHousekeeper_76311|INF|     24140|2021-05-29 08:06:23.009469|             MAIN > Adam out status: 1:1:1:0:1:0:0:0
+
+python_95334       |INF|        20|2021-05-29 08:06:23.109613|             MAIN > Communication with AdSec established
+
+python_95334       |INF|        21|2021-05-29 08:06:23.112993|             MAIN > Communication with LBTIWFS established
+
+python_95334       |INF|        22|2021-05-29 08:06:23.121263|             MAIN > Communication with RTDB (127.0.0.1) established
+
+housekeeper_76462  |ERR|      7924|2021-05-29 08:06:23.151138|             MAIN > Timeout reading BCUs:  [CommandSenderTimeoutException] Timeout expired [HouseKeeper.cpp:2636]
+
+python_95334       |DEB|        23|2021-05-29 08:06:23.493955|             MAIN > Request: ident
+
+python_95334       |INF|        24|2021-05-29 08:06:23.494449|             MAIN > Adding client: AOSL
+
+MirrorCtrl_76334   |ERR|      1058|2021-05-29 08:06:23.652633|             MAIN > ******** FAILED PACKET FROM BCU 8 *******
+
+MirrorCtrl_76334   |ERR|      1059|2021-05-29 08:06:23.653028|             MAIN > ******** FAILED PACKET FROM BCU 5 *******
+
+MirrorCtrl_76334   |ERR|      1060|2021-05-29 08:06:23.653044|             MAIN > ******** FAILED PACKET FROM BCU 6 *******
+
+MirrorCtrl_76334   |ERR|      1062|2021-05-29 08:06:23.653048|             MAIN > ******** FAILED PACKET FROM BCU 10 *******
+
+MirrorCtrl_76334   |ERR|      1061|2021-05-29 08:06:23.653065|             MAIN > ******** FAILED PACKET FROM BCU 9 *******
+
+MirrorCtrl_76334   |ERR|      1063|2021-05-29 08:06:23.922781|             MAIN > ******** FAILED PACKET FROM BCU 2 *******
+
+adamHousekeeper_76311|INF|     24141|2021-05-29 08:06:24.010477|             FAST > Processed     1 cycles of    23 vars in   1.03 s ( 0.968 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24142|2021-05-29 08:06:24.025497|             MAIN > Adam in status:  1:1:0:0:1:0:0:0
+
+adamHousekeeper_76311|INF|     24143|2021-05-29 08:06:24.042593|             MAIN > Adam out status: 1:1:1:0:1:0:0:0
+
+MirrorCtrl_76334   |ERR|      1064|2021-05-29 08:06:24.479681|             MAIN > ******** FAILED PACKET FROM BCU 7 *******
+
+MirrorCtrl_76334   |ERR|      1065|2021-05-29 08:06:24.479812| BCUCOMMANDHANDLER_5_P3 > BcuCommandHandler::handleBcuReply: REQUEST COMPLETED but FAILED :-(
+
+adamHousekeeper_76311|INF|     24144|2021-05-29 08:06:25.043376|             FAST > Processed     1 cycles of    23 vars in   1.03 s ( 0.968 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24145|2021-05-29 08:06:25.056116|             MAIN > Adam in status:  1:1:0:0:1:0:0:0
+
+adamHousekeeper_76311|INF|     24146|2021-05-29 08:06:25.073668|             MAIN > Adam out status: 1:1:1:0:1:0:0:0
+
+housekeeper_76462  |ERR|      7925|2021-05-29 08:06:25.151466|             MAIN > Timeout reading BCUs:  [CommandSenderTimeoutException] Timeout expired [HouseKeeper.cpp:2636]
+
+MirrorCtrl_76334   |ERR|      1066|2021-05-29 08:06:25.479118|             MAIN > ******** FAILED PACKET FROM BCU 10 *******
+
+MirrorCtrl_76334   |ERR|      1067|2021-05-29 08:06:25.479709|             MAIN > ******** FAILED PACKET FROM BCU 9 *******
+
+MirrorCtrl_76334   |ERR|      1068|2021-05-29 08:06:25.479711|             MAIN > ******** FAILED PACKET FROM BCU 8 *******
+
+MirrorCtrl_76334   |ERR|      1069|2021-05-29 08:06:25.479850|             MAIN > ******** FAILED PACKET FROM BCU 5 *******
+
+MirrorCtrl_76334   |ERR|      1070|2021-05-29 08:06:25.479881|             MAIN > ******** FAILED PACKET FROM BCU 6 *******
+
+MirrorCtrl_76334   |ERR|      1071|2021-05-29 08:06:25.981042|             MAIN > ******** FAILED PACKET FROM BCU 7 *******
+
+adamHousekeeper_76311|INF|     24147|2021-05-29 08:06:26.074199|             FAST > Processed     1 cycles of    23 vars in   1.03 s (  0.97 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24148|2021-05-29 08:06:26.087555|             MAIN > Adam in status:  1:1:0:0:1:0:0:0
+
+adamHousekeeper_76311|INF|     24149|2021-05-29 08:06:26.104553|             MAIN > Adam out status: 1:1:1:0:1:0:0:0
+
+MirrorCtrl_76334   |ERR|      1072|2021-05-29 08:06:26.424181|             MAIN > ******** FAILED PACKET FROM BCU 2 *******
+
+MirrorCtrl_76334   |ERR|      1073|2021-05-29 08:06:26.980873|             MAIN > ******** FAILED PACKET FROM BCU 10 *******
+
+MirrorCtrl_76334   |ERR|      1074|2021-05-29 08:06:26.981050|             MAIN > ******** FAILED PACKET FROM BCU 8 *******
+
+MirrorCtrl_76334   |ERR|      1075|2021-05-29 08:06:26.981495|             MAIN > ******** FAILED PACKET FROM BCU 9 *******
+
+MirrorCtrl_76334   |ERR|      1076|2021-05-29 08:06:26.981580|             MAIN > ******** FAILED PACKET FROM BCU 5 *******
+
+MirrorCtrl_76334   |ERR|      1077|2021-05-29 08:06:26.981674|             MAIN > ******** FAILED PACKET FROM BCU 6 *******
+
+MirrorCtrl_76334   |ERR|      1078|2021-05-29 08:06:26.981808| BCUCOMMANDHANDLER_5_P3 > BcuCommandHandler::handleBcuReply: REQUEST COMPLETED but FAILED :-(
+
+adamHousekeeper_76311|INF|     24150|2021-05-29 08:06:27.105572|             FAST > Processed     1 cycles of    23 vars in   1.03 s (  0.97 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24151|2021-05-29 08:06:27.117665|             MAIN > Adam in status:  1:1:0:0:1:0:0:0
+
+adamHousekeeper_76311|INF|     24152|2021-05-29 08:06:27.134621|             MAIN > Adam out status: 1:1:1:0:1:0:0:0
+
+housekeeper_76462  |ERR|      7926|2021-05-29 08:06:27.151800|             MAIN > Timeout reading BCUs:  [CommandSenderTimeoutException] Timeout expired [HouseKeeper.cpp:2636]
+
+MirrorCtrl_76334   |ERR|      1079|2021-05-29 08:06:27.482824|             MAIN > ******** FAILED PACKET FROM BCU 7 *******
+
+adamHousekeeper_76311|INF|     24153|2021-05-29 08:06:28.135193|             FAST > Processed     1 cycles of    23 vars in   1.03 s ( 0.971 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24154|2021-05-29 08:06:28.148672|             MAIN > Adam in status:  1:1:0:0:1:0:0:0
+
+adamHousekeeper_76311|INF|     24155|2021-05-29 08:06:28.165634|             MAIN > Adam out status: 1:1:1:0:1:0:0:0
+
+MirrorCtrl_76334   |ERR|      1080|2021-05-29 08:06:28.483695|             MAIN > ******** FAILED PACKET FROM BCU 8 *******
+
+MirrorCtrl_76334   |ERR|      1081|2021-05-29 08:06:28.483812| BCUCOMMANDHANDLER_5_P3 > BcuCommandHandler::handleBcuReply: REQUEST COMPLETED but FAILED :-(
+
+MirrorCtrl_76334   |ERR|      1082|2021-05-29 08:06:28.483932| BCUCOMMANDHANDLER_5_P3 > Client timed-out: impossible to attach to the shared memory !
+
+MirrorCtrl_76334   |ERR|      1083|2021-05-29 08:06:28.483980| BCUCOMMANDHANDLER_5_P3 > BcuCommandHandler::handleBcuRequest: REQUEST FAILED
+
+MirrorCtrl_76334   |ERR|      1084|2021-05-29 08:06:28.925614|             MAIN > ******** FAILED PACKET FROM BCU 2 *******
+
+housekeeper_76462  |ERR|      7927|2021-05-29 08:06:29.152138|             MAIN > Timeout reading BCUs:  [CommandSenderTimeoutException] Timeout expired [HouseKeeper.cpp:2636]
+
+adamHousekeeper_76311|INF|     24156|2021-05-29 08:06:29.166160|             FAST > Processed     1 cycles of    23 vars in   1.03 s (  0.97 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24157|2021-05-29 08:06:29.180206|             MAIN > Adam in status:  1:1:0:0:1:0:0:0
+
+adamHousekeeper_76311|INF|     24158|2021-05-29 08:06:29.197737|             MAIN > Adam out status: 1:1:1:0:1:0:0:0
+
+MirrorCtrl_76334   |ERR|      1086|2021-05-29 08:06:29.984729|             MAIN > ******** FAILED PACKET FROM BCU 9 *******
+
+MirrorCtrl_76334   |ERR|      1088|2021-05-29 08:06:29.984729|             MAIN > ******** FAILED PACKET FROM BCU 7 *******
+
+MirrorCtrl_76334   |ERR|      1085|2021-05-29 08:06:29.984734|             MAIN > ******** FAILED PACKET FROM BCU 5 *******
+
+MirrorCtrl_76334   |ERR|      1087|2021-05-29 08:06:29.984736|             MAIN > ******** FAILED PACKET FROM BCU 10 *******
+
+MirrorCtrl_76334   |ERR|      1089|2021-05-29 08:06:29.984869|             MAIN > ******** FAILED PACKET FROM BCU 6 *******
+
+MirrorCtrl_76334   |ERR|      1090|2021-05-29 08:06:29.985435|             MAIN > ******** FAILED PACKET FROM BCU 8 *******
+
+adamHousekeeper_76311|INF|     24159|2021-05-29 08:06:30.198275|             FAST > Processed     1 cycles of    23 vars in   1.03 s ( 0.969 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24160|2021-05-29 08:06:30.215677|             MAIN > Adam in status:  1:1:0:0:1:0:0:0
+
+adamHousekeeper_76311|INF|     24161|2021-05-29 08:06:30.233239|             MAIN > Adam out status: 1:1:1:0:1:0:0:0
+
+housekeeper_76462  |ERR|      7928|2021-05-29 08:06:31.152558|             MAIN > Timeout reading BCUs:  [CommandSenderTimeoutException] Timeout expired [HouseKeeper.cpp:2636]
+
+adamHousekeeper_76311|INF|     24162|2021-05-29 08:06:31.233848|             FAST > Processed     1 cycles of    23 vars in   1.04 s ( 0.966 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24163|2021-05-29 08:06:31.252255|             MAIN > Adam in status:  1:1:0:0:1:0:0:0
+
+adamHousekeeper_76311|INF|     24164|2021-05-29 08:06:31.269758|             MAIN > Adam out status: 1:1:1:0:1:0:0:0
+
+MirrorCtrl_76334   |ERR|      1091|2021-05-29 08:06:31.427141|             MAIN > ******** FAILED PACKET FROM BCU 2 *******
+
+MirrorCtrl_76334   |ERR|      1092|2021-05-29 08:06:31.654672|             MAIN > ******** FAILED PACKET FROM BCU 6 *******
+
+MirrorCtrl_76334   |ERR|      1097|2021-05-29 08:06:31.654682|             MAIN > ******** FAILED PACKET FROM BCU 7 *******
+
+MirrorCtrl_76334   |ERR|      1094|2021-05-29 08:06:31.654706|             MAIN > ******** FAILED PACKET FROM BCU 10 *******
+
+MirrorCtrl_76334   |ERR|      1096|2021-05-29 08:06:31.654709|             MAIN > ******** FAILED PACKET FROM BCU 9 *******
+
+MirrorCtrl_76334   |ERR|      1095|2021-05-29 08:06:31.654712|             MAIN > ******** FAILED PACKET FROM BCU 5 *******
+
+MirrorCtrl_76334   |ERR|      1093|2021-05-29 08:06:31.654722|             MAIN > ******** FAILED PACKET FROM BCU 8 *******
+
+MirrorCtrl_76334   |ERR|      1098|2021-05-29 08:06:31.655082| BCUCOMMANDHANDLER_5_P3 > BcuCommandHandler::handleBcuReply: REQUEST COMPLETED but FAILED :-(
+
+adamHousekeeper_76311|INF|     24165|2021-05-29 08:06:32.270326|             FAST > Processed     1 cycles of    23 vars in   1.04 s ( 0.965 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24166|2021-05-29 08:06:32.285719|             MAIN > Adam in status:  1:1:0:0:1:0:0:0
+
+adamHousekeeper_76311|INF|     24167|2021-05-29 08:06:32.302834|             MAIN > Adam out status: 1:1:1:0:1:0:0:0
+
+housekeeper_76462  |ERR|      7929|2021-05-29 08:06:33.152901|             MAIN > Timeout reading BCUs:  [CommandSenderTimeoutException] Timeout expired [HouseKeeper.cpp:2636]
+
+MirrorCtrl_76334   |ERR|      1099|2021-05-29 08:06:33.156495|             MAIN > ******** FAILED PACKET FROM BCU 6 *******
+
+MirrorCtrl_76334   |ERR|      1100|2021-05-29 08:06:33.156651|             MAIN > ******** FAILED PACKET FROM BCU 8 *******
+
+MirrorCtrl_76334   |ERR|      1101|2021-05-29 08:06:33.156670|             MAIN > ******** FAILED PACKET FROM BCU 10 *******
+
+MirrorCtrl_76334   |ERR|      1102|2021-05-29 08:06:33.156721|             MAIN > ******** FAILED PACKET FROM BCU 5 *******
+
+MirrorCtrl_76334   |ERR|      1103|2021-05-29 08:06:33.156796|             MAIN > ******** FAILED PACKET FROM BCU 7 *******
+
+MirrorCtrl_76334   |ERR|      1104|2021-05-29 08:06:33.156807|             MAIN > ******** FAILED PACKET FROM BCU 9 *******
+
+MirrorCtrl_76334   |ERR|      1105|2021-05-29 08:06:33.156943| BCUCOMMANDHANDLER_5_P3 > BcuCommandHandler::handleBcuReply: REQUEST COMPLETED but FAILED :-(
+
+MirrorCtrl_76334   |ERR|      1106|2021-05-29 08:06:33.157076| BCUCOMMANDHANDLER_5_P3 > Client timed-out: impossible to attach to the shared memory !
+
+MirrorCtrl_76334   |ERR|      1107|2021-05-29 08:06:33.157133| BCUCOMMANDHANDLER_5_P3 > BcuCommandHandler::handleBcuRequest: REQUEST FAILED
+
+adamHousekeeper_76311|INF|     24168|2021-05-29 08:06:33.303592|             FAST > Processed     1 cycles of    23 vars in   1.03 s ( 0.968 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24169|2021-05-29 08:06:33.316722|             MAIN > Adam in status:  1:1:0:0:1:0:0:0
+
+adamHousekeeper_76311|INF|     24170|2021-05-29 08:06:33.333863|             MAIN > Adam out status: 1:1:1:0:1:0:0:0
+
+MirrorCtrl_76334   |ERR|      1108|2021-05-29 08:06:33.929082|             MAIN > ******** FAILED PACKET FROM BCU 2 *******
+
+adamHousekeeper_76311|INF|     24171|2021-05-29 08:06:34.334755|             FAST > Processed     1 cycles of    23 vars in   1.03 s (  0.97 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24172|2021-05-29 08:06:34.349817|             MAIN > Adam in status:  1:1:0:0:1:0:0:0
+
+adamHousekeeper_76311|INF|     24173|2021-05-29 08:06:34.366814|             MAIN > Adam out status: 1:1:1:0:1:0:0:0
+
+MirrorCtrl_76334   |ERR|      1109|2021-05-29 08:06:34.658655|             MAIN > ******** FAILED PACKET FROM BCU 9 *******
+
+MirrorCtrl_76334   |ERR|      1110|2021-05-29 08:06:34.658784| BCUCOMMANDHANDLER_5_P3 > BcuCommandHandler::handleBcuReply: REQUEST COMPLETED but FAILED :-(
+
+housekeeper_76462  |ERR|      7930|2021-05-29 08:06:35.153301|             MAIN > Timeout reading BCUs:  [CommandSenderTimeoutException] Timeout expired [HouseKeeper.cpp:2636]
+
+adamHousekeeper_76311|INF|     24174|2021-05-29 08:06:35.367799|             FAST > Processed     1 cycles of    23 vars in   1.03 s ( 0.968 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24175|2021-05-29 08:06:35.381312|             MAIN > Adam in status:  1:1:0:0:1:0:0:0
+
+adamHousekeeper_76311|INF|     24176|2021-05-29 08:06:35.398810|             MAIN > Adam out status: 1:1:1:0:1:0:0:0
+
+MirrorCtrl_76334   |ERR|      1111|2021-05-29 08:06:36.160067|             MAIN > ******** FAILED PACKET FROM BCU 9 *******
+
+MirrorCtrl_76334   |ERR|      1112|2021-05-29 08:06:36.160854|             MAIN > ******** FAILED PACKET FROM BCU 7 *******
+
+MirrorCtrl_76334   |ERR|      1113|2021-05-29 08:06:36.160854|             MAIN > ******** FAILED PACKET FROM BCU 8 *******
+
+MirrorCtrl_76334   |ERR|      1114|2021-05-29 08:06:36.160859|             MAIN > ******** FAILED PACKET FROM BCU 6 *******
+
+MirrorCtrl_76334   |ERR|      1116|2021-05-29 08:06:36.160867|             MAIN > ******** FAILED PACKET FROM BCU 5 *******
+
+MirrorCtrl_76334   |ERR|      1115|2021-05-29 08:06:36.160871|             MAIN > ******** FAILED PACKET FROM BCU 10 *******
+
+MirrorCtrl_76334   |ERR|      1117|2021-05-29 08:06:36.161143| BCUCOMMANDHANDLER_5_P3 > BcuCommandHandler::handleBcuReply: REQUEST COMPLETED but FAILED :-(
+
+adamHousekeeper_76311|INF|     24177|2021-05-29 08:06:36.399338|             FAST > Processed     1 cycles of    23 vars in   1.03 s ( 0.969 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24178|2021-05-29 08:06:36.412951|             MAIN > Adam in status:  1:1:0:0:1:0:0:0
+
+adamHousekeeper_76311|INF|     24179|2021-05-29 08:06:36.429898|             MAIN > Adam out status: 1:1:1:0:1:0:0:0
+
+MirrorCtrl_76334   |ERR|      1118|2021-05-29 08:06:36.431112|             MAIN > ******** FAILED PACKET FROM BCU 2 *******
+
+housekeeper_76462  |ERR|      7931|2021-05-29 08:06:37.153702|             MAIN > Timeout reading BCUs:  [CommandSenderTimeoutException] Timeout expired [HouseKeeper.cpp:2636]
+
+adamHousekeeper_76311|INF|     24180|2021-05-29 08:06:37.430507|             FAST > Processed     1 cycles of    23 vars in   1.03 s (  0.97 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24181|2021-05-29 08:06:37.447887|             MAIN > Adam in status:  1:1:0:0:1:0:0:0
+
+adamHousekeeper_76311|INF|     24182|2021-05-29 08:06:37.464867|             MAIN > Adam out status: 1:1:1:0:1:0:0:0
+
+MirrorCtrl_76334   |ERR|      1119|2021-05-29 08:06:37.661898|             MAIN > ******** FAILED PACKET FROM BCU 9 *******
+
+MirrorCtrl_76334   |ERR|      1120|2021-05-29 08:06:37.662977|             MAIN > ******** FAILED PACKET FROM BCU 10 *******
+
+MirrorCtrl_76334   |ERR|      1121|2021-05-29 08:06:37.663102| BCUCOMMANDHANDLER_5_P3 > BcuCommandHandler::handleBcuReply: REQUEST COMPLETED but FAILED :-(
+
+MirrorCtrl_76334   |ERR|      1122|2021-05-29 08:06:37.663237| BCUCOMMANDHANDLER_5_P3 > Client timed-out: impossible to attach to the shared memory !
+
+MirrorCtrl_76334   |ERR|      1123|2021-05-29 08:06:37.663259| BCUCOMMANDHANDLER_5_P3 > BcuCommandHandler::handleBcuRequest: REQUEST FAILED
+
+adamHousekeeper_76311|INF|     24183|2021-05-29 08:06:38.465508|             FAST > Processed     1 cycles of    23 vars in   1.03 s ( 0.966 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24184|2021-05-29 08:06:38.480361|             MAIN > Adam in status:  1:1:0:0:1:0:0:0
+
+adamHousekeeper_76311|INF|     24185|2021-05-29 08:06:38.497876|             MAIN > Adam out status: 1:1:1:0:1:0:0:0
+
+MirrorCtrl_76334   |ERR|      1124|2021-05-29 08:06:38.932754|             MAIN > ******** FAILED PACKET FROM BCU 2 *******
+
+housekeeper_76462  |ERR|      7932|2021-05-29 08:06:39.154094|             MAIN > Timeout reading BCUs:  [CommandSenderTimeoutException] Timeout expired [HouseKeeper.cpp:2636]
+
+adamHousekeeper_76311|INF|     24186|2021-05-29 08:06:39.498563|             FAST > Processed     1 cycles of    23 vars in   1.03 s ( 0.968 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24187|2021-05-29 08:06:39.512385|             MAIN > Adam in status:  1:1:0:0:1:0:0:0
+
+adamHousekeeper_76311|INF|     24188|2021-05-29 08:06:39.529937|             MAIN > Adam out status: 1:1:1:0:1:0:0:0
+
+MirrorCtrl_76334   |ERR|      1125|2021-05-29 08:06:39.656056|             MAIN > ******** FAILED PACKET FROM BCU 8 *******
+
+MirrorCtrl_76334   |ERR|      1126|2021-05-29 08:06:39.656056|             MAIN > ******** FAILED PACKET FROM BCU 7 *******
+
+MirrorCtrl_76334   |ERR|      1127|2021-05-29 08:06:39.656205|             MAIN > ******** FAILED PACKET FROM BCU 9 *******
+
+MirrorCtrl_76334   |ERR|      1128|2021-05-29 08:06:39.656205|             MAIN > ******** FAILED PACKET FROM BCU 5 *******
+
+MirrorCtrl_76334   |ERR|      1129|2021-05-29 08:06:39.656214|             MAIN > ******** FAILED PACKET FROM BCU 6 *******
+
+MirrorCtrl_76334   |ERR|      1130|2021-05-29 08:06:39.656692|             MAIN > ******** FAILED PACKET FROM BCU 10 *******
+
+MirrorCtrl_76334   |ERR|      1131|2021-05-29 08:06:39.656763| BCUCOMMANDHANDLER_5_P3 > BcuCommandHandler::handleBcuReply: REQUEST COMPLETED but FAILED :-(
+
+adamHousekeeper_76311|INF|     24189|2021-05-29 08:06:40.530750|             FAST > Processed     1 cycles of    23 vars in   1.03 s ( 0.969 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24190|2021-05-29 08:06:40.544027|             MAIN > Adam in status:  1:1:0:0:1:0:0:0
+
+adamHousekeeper_76311|INF|     24191|2021-05-29 08:06:40.561036|             MAIN > Adam out status: 1:1:1:0:1:0:0:0
+
+idl_ctrl_76419     |INF|     13852|2021-05-29 08:06:40.660104|             MAIN > EndCmd
+
+idl_ctrl_76419     |INF|     13853|2021-05-29 08:06:40.660172|             MAIN > % WRITE_SEQ: READING ERROR BCU
+
+idl_ctrl_76419     |INF|     13853|2021-05-29 08:06:40.660172|             MAIN >  . % WRITE_SEQ: READING ERROR BCU
+
+idl_ctrl_76419     |INF|     13853|2021-05-29 08:06:40.660172|             MAIN >  . % WRITE_SEQ: READING ERROR BCU
+
+idl_ctrl_76419     |INF|     13853|2021-05-29 08:06:40.660172|             MAIN >  . % WRITE_SEQ: READING ERROR BCU
+
+idl_ctrl_76419     |INF|     13853|2021-05-29 08:06:40.660172|             MAIN >  . % WRITE_SEQ: READING ERROR BCU
+
+idl_ctrl_76419     |INF|     13853|2021-05-29 08:06:40.660172|             MAIN >  . % WRITE_SEQ: READING ERROR BCU
+
+idl_ctrl_76419     |INF|     13853|2021-05-29 08:06:40.660172|             MAIN >  . % WRITE_SEQ: READING ERROR BCU
+
+idl_ctrl_76419     |INF|     13853|2021-05-29 08:06:40.660172|             MAIN >  . % WRITE_SEQ: READING ERROR BCU
+
+idl_ctrl_76419     |INF|     13853|2021-05-29 08:06:40.660172|             MAIN >  . % WRITE_SEQ: READING ERROR BCU
+
+idl_ctrl_76419     |INF|     13853|2021-05-29 08:06:40.660172|             MAIN >  . % WRITE_SEQ: READING ERROR BCU
+
+idl_ctrl_76419     |INF|     13853|2021-05-29 08:06:40.660172|             MAIN >  . % WRITE_SEQ: READING ERROR BCU
+
+idl_ctrl_76419     |INF|     13853|2021-05-29 08:06:40.660172|             MAIN >  . % WRITE_SEQ: READING ERROR BCU
+
+idl_ctrl_76419     |INF|     13853|2021-05-29 08:06:40.660172|             MAIN >  . 
+
+idl_ctrl_76419     |INF|     13854|2021-05-29 08:06:40.660293|             MAIN > Executing command: print,test_demo_mode()
+
+idl_ctrl_76419     |INF|     13855|2021-05-29 08:06:40.660476|             MAIN > StartCmd
+
+idl_ctrl_76419     |INF|     13856|2021-05-29 08:06:40.660517|             MAIN > IDL license file is running.
+
+idl_ctrl_76419     |INF|     13856|2021-05-29 08:06:40.660517|             MAIN >  .        0
+
+idl_ctrl_76419     |INF|     13857|2021-05-29 08:06:40.660537|             MAIN > EndCmd
+
+idl_ctrl_76419     |INF|     13858|2021-05-29 08:06:40.660603|             MAIN > Executing command: errcode= fsm_power_on() & print, errcode
+
+idl_ctrl_76419     |INF|     13859|2021-05-29 08:06:40.660797|             MAIN > StartCmd
+
+idl_ctrl_76419     |INF|     13860|2021-05-29 08:06:40.660921|             MAIN > fsm_power_on() command started.
+
+housekeeper_76462  |ERR|      7933|2021-05-29 08:06:41.154443|             MAIN > Timeout reading BCUs:  [CommandSenderTimeoutException] Timeout expired [HouseKeeper.cpp:2636]
+
+MirrorCtrl_76334   |ERR|      1132|2021-05-29 08:06:41.157894|             MAIN > ******** FAILED PACKET FROM BCU 8 *******
+
+MirrorCtrl_76334   |ERR|      1133|2021-05-29 08:06:41.157894|             MAIN > ******** FAILED PACKET FROM BCU 7 *******
+
+MirrorCtrl_76334   |ERR|      1134|2021-05-29 08:06:41.158107|             MAIN > ******** FAILED PACKET FROM BCU 9 *******
+
+MirrorCtrl_76334   |ERR|      1135|2021-05-29 08:06:41.158107|             MAIN > ******** FAILED PACKET FROM BCU 5 *******
+
+MirrorCtrl_76334   |ERR|      1136|2021-05-29 08:06:41.158166|             MAIN > ******** FAILED PACKET FROM BCU 6 *******
+
+MirrorCtrl_76334   |ERR|      1137|2021-05-29 08:06:41.158432|             MAIN > ******** FAILED PACKET FROM BCU 10 *******
+
+MirrorCtrl_76334   |ERR|      1138|2021-05-29 08:06:41.158503| BCUCOMMANDHANDLER_5_P3 > BcuCommandHandler::handleBcuReply: REQUEST COMPLETED but FAILED :-(
+
+MirrorCtrl_76334   |ERR|      1139|2021-05-29 08:06:41.434712|             MAIN > ******** FAILED PACKET FROM BCU 2 *******
+
+adamHousekeeper_76311|INF|     24192|2021-05-29 08:06:41.561530|             FAST > Processed     1 cycles of    23 vars in   1.03 s (  0.97 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24193|2021-05-29 08:06:41.574996|             MAIN > Adam in status:  1:1:0:0:1:0:0:0
+
+adamHousekeeper_76311|INF|     24194|2021-05-29 08:06:41.592470|             MAIN > Adam out status: 0:1:1:0:1:0:0:0
+
+adamHousekeeper_76311|INF|     24195|2021-05-29 08:06:42.593186|             FAST > Processed     1 cycles of    23 vars in   1.03 s ( 0.969 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24196|2021-05-29 08:06:42.612549|             MAIN > Adam in status:  1:1:0:0:1:1:1:1
+
+adamHousekeeper_76311|INF|     24197|2021-05-29 08:06:42.630488|             MAIN > Adam out status: 0:1:1:0:1:0:0:1
+
+MirrorCtrl_76334   |ERR|      1140|2021-05-29 08:06:42.659682|             MAIN > ******** FAILED PACKET FROM BCU 8 *******
+
+MirrorCtrl_76334   |ERR|      1141|2021-05-29 08:06:42.659788|             MAIN > ******** FAILED PACKET FROM BCU 7 *******
+
+MirrorCtrl_76334   |ERR|      1142|2021-05-29 08:06:42.659915|             MAIN > ******** FAILED PACKET FROM BCU 9 *******
+
+MirrorCtrl_76334   |ERR|      1143|2021-05-29 08:06:42.659939|             MAIN > ******** FAILED PACKET FROM BCU 5 *******
+
+MirrorCtrl_76334   |ERR|      1144|2021-05-29 08:06:42.660021|             MAIN > ******** FAILED PACKET FROM BCU 6 *******
+
+MirrorCtrl_76334   |ERR|      1145|2021-05-29 08:06:42.660080|             MAIN > ******** FAILED PACKET FROM BCU 10 *******
+
+housekeeper_76462  |ERR|      7934|2021-05-29 08:06:43.154793|             MAIN > Timeout reading BCUs:  [CommandSenderTimeoutException] Timeout expired [HouseKeeper.cpp:2636]
+
+adamHousekeeper_76311|INF|     24198|2021-05-29 08:06:43.631304|             FAST > Processed     1 cycles of    23 vars in   1.04 s ( 0.963 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24199|2021-05-29 08:06:43.640201|             MAIN > Adam in status:  1:1:0:0:1:1:1:1
+
+adamHousekeeper_76311|INF|     24200|2021-05-29 08:06:43.657996|             MAIN > Adam out status: 0:1:1:0:1:0:0:1
+
+MirrorCtrl_76334   |ERR|      1146|2021-05-29 08:06:43.936714|             MAIN > ******** FAILED PACKET FROM BCU 2 *******
+
+MirrorCtrl_76334   |ERR|      1147|2021-05-29 08:06:44.161513|             MAIN > ******** FAILED PACKET FROM BCU 7 *******
+
+MirrorCtrl_76334   |ERR|      1148|2021-05-29 08:06:44.161513|             MAIN > ******** FAILED PACKET FROM BCU 8 *******
+
+MirrorCtrl_76334   |ERR|      1149|2021-05-29 08:06:44.161736|             MAIN > ******** FAILED PACKET FROM BCU 9 *******
+
+MirrorCtrl_76334   |ERR|      1150|2021-05-29 08:06:44.161748|             MAIN > ******** FAILED PACKET FROM BCU 5 *******
+
+MirrorCtrl_76334   |ERR|      1151|2021-05-29 08:06:44.161841|             MAIN > ******** FAILED PACKET FROM BCU 6 *******
+
+MirrorCtrl_76334   |ERR|      1152|2021-05-29 08:06:44.161887|             MAIN > ******** FAILED PACKET FROM BCU 10 *******
+
+MirrorCtrl_76334   |ERR|      1153|2021-05-29 08:06:44.161995| BCUCOMMANDHANDLER_5_P3 > BcuCommandHandler::handleBcuReply: REQUEST COMPLETED but FAILED :-(
+
+adamHousekeeper_76311|INF|     24201|2021-05-29 08:06:44.658648|             FAST > Processed     1 cycles of    23 vars in   1.03 s ( 0.973 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24202|2021-05-29 08:06:44.668107|             MAIN > Adam in status:  1:1:0:0:1:1:1:1
+
+adamHousekeeper_76311|INF|     24203|2021-05-29 08:06:44.686035|             MAIN > Adam out status: 1:1:1:0:1:0:0:1
+
+housekeeper_76462  |ERR|      7935|2021-05-29 08:06:45.155160|             MAIN > Timeout reading BCUs:  [CommandSenderTimeoutException] Timeout expired [HouseKeeper.cpp:2636]
+
+MirrorCtrl_76334   |ERR|      1154|2021-05-29 08:06:45.663141|             MAIN > ******** FAILED PACKET FROM BCU 8 *******
+
+MirrorCtrl_76334   |ERR|      1155|2021-05-29 08:06:45.663146|             MAIN > ******** FAILED PACKET FROM BCU 7 *******
+
+MirrorCtrl_76334   |ERR|      1156|2021-05-29 08:06:45.663172|             MAIN > ******** FAILED PACKET FROM BCU 10 *******
+
+MirrorCtrl_76334   |ERR|      1157|2021-05-29 08:06:45.663622|             MAIN > ******** FAILED PACKET FROM BCU 9 *******
+
+MirrorCtrl_76334   |ERR|      1158|2021-05-29 08:06:45.663628|             MAIN > ******** FAILED PACKET FROM BCU 5 *******
+
+MirrorCtrl_76334   |ERR|      1159|2021-05-29 08:06:45.663742|             MAIN > ******** FAILED PACKET FROM BCU 6 *******
+
+MirrorCtrl_76334   |ERR|      1160|2021-05-29 08:06:45.663816| BCUCOMMANDHANDLER_5_P3 > BcuCommandHandler::handleBcuReply: REQUEST COMPLETED but FAILED :-(
+
+adamHousekeeper_76311|INF|     24204|2021-05-29 08:06:45.687013|             FAST > Processed     1 cycles of    23 vars in   1.03 s ( 0.972 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24205|2021-05-29 08:06:45.706037|             MAIN > Adam in status:  1:1:0:0:1:1:1:1
+
+adamHousekeeper_76311|INF|     24206|2021-05-29 08:06:45.724166|             MAIN > Adam out status: 1:1:1:0:1:0:0:1
+
+MirrorCtrl_76334   |ERR|      1161|2021-05-29 08:06:46.438232|             MAIN > ******** FAILED PACKET FROM BCU 2 *******
+
+adamHousekeeper_76311|INF|     24207|2021-05-29 08:06:46.725153|             FAST > Processed     1 cycles of    23 vars in   1.04 s ( 0.963 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24208|2021-05-29 08:06:46.745097|             MAIN > Adam in status:  1:1:0:0:1:1:1:1
+
+adamHousekeeper_76311|INF|     24209|2021-05-29 08:06:46.762577|             MAIN > Adam out status: 1:1:1:0:1:0:0:1
+
+housekeeper_76462  |ERR|      7936|2021-05-29 08:06:47.155630|             MAIN > Timeout reading BCUs:  [CommandSenderTimeoutException] Timeout expired [HouseKeeper.cpp:2636]
+
+MirrorCtrl_76334   |ERR|      1162|2021-05-29 08:06:47.164981|             MAIN > ******** FAILED PACKET FROM BCU 7 *******
+
+MirrorCtrl_76334   |ERR|      1163|2021-05-29 08:06:47.164981|             MAIN > ******** FAILED PACKET FROM BCU 8 *******
+
+MirrorCtrl_76334   |ERR|      1164|2021-05-29 08:06:47.165124|             MAIN > ******** FAILED PACKET FROM BCU 10 *******
+
+MirrorCtrl_76334   |ERR|      1165|2021-05-29 08:06:47.165366|             MAIN > ******** FAILED PACKET FROM BCU 9 *******
+
+MirrorCtrl_76334   |ERR|      1166|2021-05-29 08:06:47.165398|             MAIN > ******** FAILED PACKET FROM BCU 5 *******
+
+MirrorCtrl_76334   |ERR|      1167|2021-05-29 08:06:47.165458|             MAIN > ******** FAILED PACKET FROM BCU 6 *******
+
+MirrorCtrl_76334   |ERR|      1168|2021-05-29 08:06:47.165533| BCUCOMMANDHANDLER_5_P3 > BcuCommandHandler::handleBcuReply: REQUEST COMPLETED but FAILED :-(
+
+adamHousekeeper_76311|INF|     24210|2021-05-29 08:06:47.763309|             FAST > Processed     1 cycles of    23 vars in   1.04 s ( 0.963 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24211|2021-05-29 08:06:47.778149|             MAIN > Adam in status:  1:1:0:0:1:1:1:1
+
+adamHousekeeper_76311|INF|     24212|2021-05-29 08:06:47.795223|             MAIN > Adam out status: 1:1:1:0:1:0:0:1
+
+MirrorCtrl_76334   |ERR|      1169|2021-05-29 08:06:48.667066|             MAIN > ******** FAILED PACKET FROM BCU 6 *******
+
+MirrorCtrl_76334   |ERR|      1170|2021-05-29 08:06:48.667066|             MAIN > ******** FAILED PACKET FROM BCU 5 *******
+
+MirrorCtrl_76334   |ERR|      1171|2021-05-29 08:06:48.667191|             MAIN > ******** FAILED PACKET FROM BCU 9 *******
+
+adamHousekeeper_76311|INF|     24213|2021-05-29 08:06:48.795782|             FAST > Processed     1 cycles of    23 vars in   1.03 s ( 0.969 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24214|2021-05-29 08:06:48.810270|             MAIN > Adam in status:  1:1:0:0:1:1:1:1
+
+adamHousekeeper_76311|INF|     24215|2021-05-29 08:06:48.827248|             MAIN > Adam out status: 1:1:1:0:1:0:0:1
+
+MirrorCtrl_76334   |ERR|      1172|2021-05-29 08:06:48.940158|             MAIN > ******** FAILED PACKET FROM BCU 2 *******
+
+housekeeper_76462  |ERR|      7937|2021-05-29 08:06:49.683619|             MAIN > Timeout reading BCUs:  [CommandSenderTimeoutException] Timeout expired [HouseKeeper.cpp:2636]
+
+adamHousekeeper_76311|INF|     24216|2021-05-29 08:06:49.827762|             FAST > Processed     1 cycles of    23 vars in   1.03 s ( 0.969 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24217|2021-05-29 08:06:49.841141|             MAIN > Adam in status:  1:1:0:0:1:1:1:1
+
+adamHousekeeper_76311|INF|     24218|2021-05-29 08:06:49.859168|             MAIN > Adam out status: 0:1:1:0:1:0:0:1
+
+MirrorCtrl_76334   |ERR|      1173|2021-05-29 08:06:50.441989|             MAIN > ******** FAILED PACKET FROM BCU 2 *******
+
+MirrorCtrl_76334   |ERR|      1174|2021-05-29 08:06:50.442071| BCUCOMMANDHANDLER_2_P3 > BcuCommandHandler::handleBcuReply: REQUEST COMPLETED but FAILED :-(
+
+adamHousekeeper_76311|INF|     24219|2021-05-29 08:06:50.859848|             FAST > Processed     1 cycles of    23 vars in   1.03 s ( 0.969 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24220|2021-05-29 08:06:50.868500|             MAIN > Adam in status:  1:1:0:0:1:1:1:1
+
+adamHousekeeper_76311|INF|     24221|2021-05-29 08:06:50.886774|             MAIN > Adam out status: 0:1:1:0:1:0:0:1
+
+MirrorCtrl_76334   |ERR|      1175|2021-05-29 08:06:51.169241|             MAIN > ******** FAILED PACKET FROM BCU 9 *******
+
+MirrorCtrl_76334   |ERR|      1176|2021-05-29 08:06:51.169404|             MAIN > ******** FAILED PACKET FROM BCU 10 *******
+
+MirrorCtrl_76334   |ERR|      1177|2021-05-29 08:06:51.169428|             MAIN > ******** FAILED PACKET FROM BCU 7 *******
+
+MirrorCtrl_76334   |ERR|      1178|2021-05-29 08:06:51.169457|             MAIN > ******** FAILED PACKET FROM BCU 5 *******
+
+MirrorCtrl_76334   |ERR|      1180|2021-05-29 08:06:51.169470|             MAIN > ******** FAILED PACKET FROM BCU 8 *******
+
+MirrorCtrl_76334   |ERR|      1179|2021-05-29 08:06:51.169475|             MAIN > ******** FAILED PACKET FROM BCU 6 *******
+
+housekeeper_76462  |ERR|      7938|2021-05-29 08:06:51.684034|             MAIN > Timeout reading BCUs:  [CommandSenderTimeoutException] Timeout expired [HouseKeeper.cpp:2636]
+
+adamHousekeeper_76311|INF|     24222|2021-05-29 08:06:51.887747|             FAST > Processed     1 cycles of    23 vars in   1.03 s ( 0.973 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24223|2021-05-29 08:06:51.896623|             MAIN > Adam in status:  1:1:0:0:1:1:1:1
+
+adamHousekeeper_76311|INF|     24224|2021-05-29 08:06:51.915332|             MAIN > Adam out status: 1:1:1:0:1:0:0:1
+
+MirrorCtrl_76334   |ERR|      1181|2021-05-29 08:06:51.943775|             MAIN > ******** FAILED PACKET FROM BCU 2 *******
+
+MirrorCtrl_76334   |ERR|      1182|2021-05-29 08:06:52.670671|             MAIN > ******** FAILED PACKET FROM BCU 9 *******
+
+MirrorCtrl_76334   |ERR|      1183|2021-05-29 08:06:52.671077|             MAIN > ******** FAILED PACKET FROM BCU 6 *******
+
+MirrorCtrl_76334   |ERR|      1184|2021-05-29 08:06:52.671191|             MAIN > ******** FAILED PACKET FROM BCU 10 *******
+
+MirrorCtrl_76334   |ERR|      1185|2021-05-29 08:06:52.671429|             MAIN > ******** FAILED PACKET FROM BCU 7 *******
+
+MirrorCtrl_76334   |ERR|      1186|2021-05-29 08:06:52.671449|             MAIN > ******** FAILED PACKET FROM BCU 8 *******
+
+MirrorCtrl_76334   |ERR|      1187|2021-05-29 08:06:52.671449|             MAIN > ******** FAILED PACKET FROM BCU 5 *******
+
+MirrorCtrl_76334   |ERR|      1188|2021-05-29 08:06:52.671584| BCUCOMMANDHANDLER_5_P3 > BcuCommandHandler::handleBcuReply: REQUEST COMPLETED but FAILED :-(
+
+adamHousekeeper_76311|INF|     24225|2021-05-29 08:06:52.915865|             FAST > Processed     1 cycles of    23 vars in   1.03 s ( 0.973 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24226|2021-05-29 08:06:52.924339|             MAIN > Adam in status:  1:1:0:0:1:1:1:1
+
+adamHousekeeper_76311|INF|     24227|2021-05-29 08:06:52.941763|             MAIN > Adam out status: 1:1:1:0:1:0:0:1
+
+housekeeper_76462  |ERR|      7939|2021-05-29 08:06:53.684568|             MAIN > Timeout reading BCUs:  [CommandSenderTimeoutException] Timeout expired [HouseKeeper.cpp:2636]
+
+adamHousekeeper_76311|INF|     24228|2021-05-29 08:06:53.942412|             FAST > Processed     1 cycles of    23 vars in   1.03 s ( 0.974 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24229|2021-05-29 08:06:53.962616|             MAIN > Adam in status:  1:1:0:0:1:1:1:1
+
+adamHousekeeper_76311|INF|     24230|2021-05-29 08:06:53.980860|             MAIN > Adam out status: 1:1:1:0:1:0:0:1
+
+MirrorCtrl_76334   |ERR|      1189|2021-05-29 08:06:54.172069|             MAIN > ******** FAILED PACKET FROM BCU 9 *******
+
+MirrorCtrl_76334   |ERR|      1190|2021-05-29 08:06:54.172842|             MAIN > ******** FAILED PACKET FROM BCU 6 *******
+
+MirrorCtrl_76334   |ERR|      1191|2021-05-29 08:06:54.173002|             MAIN > ******** FAILED PACKET FROM BCU 10 *******
+
+MirrorCtrl_76334   |ERR|      1192|2021-05-29 08:06:54.173335|             MAIN > ******** FAILED PACKET FROM BCU 7 *******
+
+MirrorCtrl_76334   |ERR|      1193|2021-05-29 08:06:54.173349|             MAIN > ******** FAILED PACKET FROM BCU 5 *******
+
+MirrorCtrl_76334   |ERR|      1194|2021-05-29 08:06:54.173349|             MAIN > ******** FAILED PACKET FROM BCU 8 *******
+
+MirrorCtrl_76334   |ERR|      1195|2021-05-29 08:06:54.173546| BCUCOMMANDHANDLER_5_P3 > BcuCommandHandler::handleBcuReply: REQUEST COMPLETED but FAILED :-(
+
+MirrorCtrl_76334   |ERR|      1196|2021-05-29 08:06:54.445645|             MAIN > ******** FAILED PACKET FROM BCU 2 *******
+
+adamHousekeeper_76311|INF|     24231|2021-05-29 08:06:54.981463|             FAST > Processed     1 cycles of    23 vars in   1.04 s ( 0.962 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24232|2021-05-29 08:06:54.991278|             MAIN > Adam in status:  1:1:0:0:1:1:1:1
+
+adamHousekeeper_76311|INF|     24233|2021-05-29 08:06:55.008321|             MAIN > Adam out status: 1:1:1:0:1:0:0:1
+
+MirrorCtrl_76334   |ERR|      1197|2021-05-29 08:06:55.673841|             MAIN > ******** FAILED PACKET FROM BCU 9 *******
+
+MirrorCtrl_76334   |ERR|      1198|2021-05-29 08:06:55.674548|             MAIN > ******** FAILED PACKET FROM BCU 6 *******
+
+MirrorCtrl_76334   |ERR|      1199|2021-05-29 08:06:55.674742|             MAIN > ******** FAILED PACKET FROM BCU 10 *******
+
+MirrorCtrl_76334   |ERR|      1200|2021-05-29 08:06:55.675147|             MAIN > ******** FAILED PACKET FROM BCU 7 *******
+
+MirrorCtrl_76334   |ERR|      1201|2021-05-29 08:06:55.675164|             MAIN > ******** FAILED PACKET FROM BCU 5 *******
+
+MirrorCtrl_76334   |ERR|      1202|2021-05-29 08:06:55.675164|             MAIN > ******** FAILED PACKET FROM BCU 8 *******
+
+housekeeper_76462  |ERR|      7940|2021-05-29 08:06:55.685046|             MAIN > Timeout reading BCUs:  [CommandSenderTimeoutException] Timeout expired [HouseKeeper.cpp:2636]
+
+adamHousekeeper_76311|INF|     24234|2021-05-29 08:06:56.009173|             FAST > Processed     1 cycles of    23 vars in   1.03 s ( 0.973 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24235|2021-05-29 08:06:56.020875|             MAIN > Adam in status:  1:1:0:0:1:1:1:1
+
+adamHousekeeper_76311|INF|     24236|2021-05-29 08:06:56.038374|             MAIN > Adam out status: 1:1:1:0:1:0:0:1
+
+MirrorCtrl_76334   |ERR|      1203|2021-05-29 08:06:56.947648|             MAIN > ******** FAILED PACKET FROM BCU 2 *******
+
+adamHousekeeper_76311|INF|     24237|2021-05-29 08:06:57.038893|             FAST > Processed     1 cycles of    23 vars in   1.03 s ( 0.971 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24238|2021-05-29 08:06:57.049411|             MAIN > Adam in status:  1:1:0:0:1:1:1:1
+
+adamHousekeeper_76311|INF|     24239|2021-05-29 08:06:57.067383|             MAIN > Adam out status: 0:1:1:0:1:0:0:1
+
+housekeeper_76462  |ERR|      7941|2021-05-29 08:06:57.685404|             MAIN > Timeout reading BCUs:  [CommandSenderTimeoutException] Timeout expired [HouseKeeper.cpp:2636]
+
+adamHousekeeper_76311|INF|     24240|2021-05-29 08:06:58.068174|             FAST > Processed     1 cycles of    23 vars in   1.03 s ( 0.972 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24241|2021-05-29 08:06:58.078439|             MAIN > Adam in status:  1:1:0:0:1:1:1:1
+
+adamHousekeeper_76311|INF|     24242|2021-05-29 08:06:58.096441|             MAIN > Adam out status: 0:1:1:0:1:0:0:1
+
+MirrorCtrl_76334   |ERR|      1204|2021-05-29 08:06:58.175745|             MAIN > ******** FAILED PACKET FROM BCU 10 *******
+
+MirrorCtrl_76334   |ERR|      1205|2021-05-29 08:06:58.175860|             MAIN > ******** FAILED PACKET FROM BCU 6 *******
+
+MirrorCtrl_76334   |ERR|      1206|2021-05-29 08:06:58.177271|             MAIN > ******** FAILED PACKET FROM BCU 7 *******
+
+MirrorCtrl_76334   |ERR|      1207|2021-05-29 08:06:58.177273|             MAIN > ******** FAILED PACKET FROM BCU 9 *******
+
+MirrorCtrl_76334   |ERR|      1209|2021-05-29 08:06:58.177274|             MAIN > ******** FAILED PACKET FROM BCU 8 *******
+
+MirrorCtrl_76334   |ERR|      1208|2021-05-29 08:06:58.177276|             MAIN > ******** FAILED PACKET FROM BCU 5 *******
+
+MirrorCtrl_76334   |ERR|      1210|2021-05-29 08:06:58.177533| BCUCOMMANDHANDLER_5_P3 > BcuCommandHandler::handleBcuReply: REQUEST COMPLETED but FAILED :-(
+
+idl_ctrl_76419     |INF|     13861|2021-05-29 08:06:58.365869|             MAIN > fsm_reset() procedure started.
+
+idl_ctrl_76419     |INF|     13862|2021-05-29 08:06:58.366122|             MAIN > Disabling timeout on diagnostic frames accepted by fastdiagnostic...
+
+idl_ctrl_76419     |INF|     13863|2021-05-29 08:06:58.366234|             MAIN > Ok: timeout on frames disabled.
+
+housekeeper_76462  |INF|      7942|2021-05-29 08:06:58.366497|    DIAGNSETPARAM > received SETPARAM message [DiagnApp.cpp:333]
+
+housekeeper_76462  |INF|      7943|2021-05-29 08:06:58.366585|    DIAGNSETPARAM > diagnsetparam_handler(): queue is 1, handler queue 0 [DiagnApp.cpp:351]
+
+housekeeper_76462  |INF|      7944|2021-05-29 08:06:58.366600|    DIAGNSETPARAM > diagnsetparam_handler(): processing queue of 1 messages [DiagnApp.cpp:355]
+
+housekeeper_76462  |INF|      7945|2021-05-29 08:06:58.375746|    DIAGNSETPARAM > deserialize SETPARAM message: CHECKDEWPOINT             0     0      --->       -1e+06      -1e+06       1e+06       1e+06 (mask 30)       1       0   dis  fast mask 0 [1 vars updated][DiagnApp.cpp:361]
+
+adamHousekeeper_76311|INF|     24243|2021-05-29 08:06:59.097537|             FAST > Processed     1 cycles of    23 vars in   1.03 s ( 0.972 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24244|2021-05-29 08:06:59.106526|             MAIN > Adam in status:  1:1:0:0:1:1:1:1
+
+adamHousekeeper_76311|INF|     24245|2021-05-29 08:06:59.124448|             MAIN > Adam out status: 0:1:1:0:1:0:0:1
+
+MirrorCtrl_76334   |ERR|      1211|2021-05-29 08:06:59.449238|             MAIN > ******** FAILED PACKET FROM BCU 2 *******
+
+MirrorCtrl_76334   |ERR|      1212|2021-05-29 08:06:59.677565|             MAIN > ******** FAILED PACKET FROM BCU 6 *******
+
+MirrorCtrl_76334   |ERR|      1213|2021-05-29 08:06:59.677724|             MAIN > ******** FAILED PACKET FROM BCU 10 *******
+
+MirrorCtrl_76334   |ERR|      1214|2021-05-29 08:06:59.679106|             MAIN > ******** FAILED PACKET FROM BCU 9 *******
+
+MirrorCtrl_76334   |ERR|      1215|2021-05-29 08:06:59.679106|             MAIN > ******** FAILED PACKET FROM BCU 7 *******
+
+MirrorCtrl_76334   |ERR|      1216|2021-05-29 08:06:59.679353|             MAIN > ******** FAILED PACKET FROM BCU 5 *******
+
+MirrorCtrl_76334   |ERR|      1217|2021-05-29 08:06:59.679353|             MAIN > ******** FAILED PACKET FROM BCU 8 *******
+
+housekeeper_76462  |ERR|      7946|2021-05-29 08:06:59.685787|             MAIN > Timeout reading BCUs:  [CommandSenderTimeoutException] Timeout expired [HouseKeeper.cpp:2636]
+
+adamHousekeeper_76311|INF|     24246|2021-05-29 08:07:00.125519|             FAST > Processed     1 cycles of    23 vars in   1.03 s ( 0.973 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24247|2021-05-29 08:07:00.145470|             MAIN > Adam in status:  1:1:0:0:1:1:1:1
+
+adamHousekeeper_76311|INF|     24248|2021-05-29 08:07:00.163739|             MAIN > Adam out status: 0:1:1:0:1:0:0:1
+
+idl_ctrl_76419     |INF|     13864|2021-05-29 08:07:00.527568|             MAIN > Waiting for Crate Bcus ready...
+
+adamHousekeeper_76311|INF|     24249|2021-05-29 08:07:01.164434|             FAST > Processed     1 cycles of    23 vars in   1.04 s ( 0.963 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24250|2021-05-29 08:07:01.174493|             MAIN > Adam in status:  1:1:0:0:1:1:1:1
+
+MirrorCtrl_76334   |ERR|      1218|2021-05-29 08:07:01.179397|             MAIN > ******** FAILED PACKET FROM BCU 6 *******
+
+MirrorCtrl_76334   |ERR|      1219|2021-05-29 08:07:01.179512|             MAIN > ******** FAILED PACKET FROM BCU 10 *******
+
+MirrorCtrl_76334   |ERR|      1220|2021-05-29 08:07:01.180679|             MAIN > ******** FAILED PACKET FROM BCU 7 *******
+
+MirrorCtrl_76334   |ERR|      1221|2021-05-29 08:07:01.180887|             MAIN > ******** FAILED PACKET FROM BCU 9 *******
+
+MirrorCtrl_76334   |ERR|      1222|2021-05-29 08:07:01.181148|             MAIN > ******** FAILED PACKET FROM BCU 5 *******
+
+MirrorCtrl_76334   |ERR|      1223|2021-05-29 08:07:01.181148|             MAIN > ******** FAILED PACKET FROM BCU 8 *******
+
+MirrorCtrl_76334   |ERR|      1224|2021-05-29 08:07:01.181275| BCUCOMMANDHANDLER_5_P3 > BcuCommandHandler::handleBcuReply: REQUEST COMPLETED but FAILED :-(
+
+MirrorCtrl_76334   |ERR|      1225|2021-05-29 08:07:01.181381| BCUCOMMANDHANDLER_5_P3 > Client timed-out: impossible to attach to the shared memory !
+
+MirrorCtrl_76334   |ERR|      1226|2021-05-29 08:07:01.181446| BCUCOMMANDHANDLER_5_P3 > BcuCommandHandler::handleBcuRequest: REQUEST FAILED
+
+adamHousekeeper_76311|INF|     24251|2021-05-29 08:07:01.192027|             MAIN > Adam out status: 1:1:1:0:1:0:0:1
+
+housekeeper_76462  |ERR|      7947|2021-05-29 08:07:01.686165|             MAIN > Timeout reading BCUs:  [CommandSenderTimeoutException] Timeout expired [HouseKeeper.cpp:2636]
+
+MirrorCtrl_76334   |ERR|      1227|2021-05-29 08:07:01.951050|             MAIN > ******** FAILED PACKET FROM BCU 2 *******
+
+adamHousekeeper_76311|INF|     24252|2021-05-29 08:07:02.192640|             FAST > Processed     1 cycles of    23 vars in   1.03 s ( 0.973 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24253|2021-05-29 08:07:02.201007|             MAIN > Adam in status:  1:1:0:0:1:1:1:1
+
+adamHousekeeper_76311|INF|     24254|2021-05-29 08:07:02.219588|             MAIN > Adam out status: 1:1:1:0:1:0:0:1
+
+MirrorCtrl_76334   |ERR|      1228|2021-05-29 08:07:02.679881|             MAIN > ******** FAILED PACKET FROM BCU 6 *******
+
+MirrorCtrl_76334   |ERR|      1229|2021-05-29 08:07:02.681343|             MAIN > ******** FAILED PACKET FROM BCU 10 *******
+
+MirrorCtrl_76334   |ERR|      1230|2021-05-29 08:07:02.682319|             MAIN > ******** FAILED PACKET FROM BCU 7 *******
+
+MirrorCtrl_76334   |ERR|      1231|2021-05-29 08:07:02.682611|             MAIN > ******** FAILED PACKET FROM BCU 9 *******
+
+MirrorCtrl_76334   |ERR|      1232|2021-05-29 08:07:02.682947|             MAIN > ******** FAILED PACKET FROM BCU 5 *******
+
+MirrorCtrl_76334   |ERR|      1233|2021-05-29 08:07:02.682947|             MAIN > ******** FAILED PACKET FROM BCU 8 *******
+
+adamHousekeeper_76311|INF|     24255|2021-05-29 08:07:03.220587|             FAST > Processed     1 cycles of    23 vars in   1.03 s ( 0.973 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24256|2021-05-29 08:07:03.230492|             MAIN > Adam in status:  1:1:0:0:1:1:1:1
+
+adamHousekeeper_76311|INF|     24257|2021-05-29 08:07:03.248081|             MAIN > Adam out status: 1:1:1:0:1:0:0:1
+
+housekeeper_76462  |ERR|      7948|2021-05-29 08:07:03.690791|             MAIN > Timeout reading BCUs:  [CommandSenderTimeoutException] Timeout expired [HouseKeeper.cpp:2636]
+
+MirrorCtrl_76334   |ERR|      1234|2021-05-29 08:07:04.181617|             MAIN > ******** FAILED PACKET FROM BCU 6 *******
+
+MirrorCtrl_76334   |ERR|      1235|2021-05-29 08:07:04.183155|             MAIN > ******** FAILED PACKET FROM BCU 10 *******
+
+MirrorCtrl_76334   |ERR|      1236|2021-05-29 08:07:04.184201|             MAIN > ******** FAILED PACKET FROM BCU 7 *******
+
+MirrorCtrl_76334   |ERR|      1237|2021-05-29 08:07:04.184393|             MAIN > ******** FAILED PACKET FROM BCU 9 *******
+
+MirrorCtrl_76334   |ERR|      1238|2021-05-29 08:07:04.184716|             MAIN > ******** FAILED PACKET FROM BCU 5 *******
+
+MirrorCtrl_76334   |ERR|      1239|2021-05-29 08:07:04.184716|             MAIN > ******** FAILED PACKET FROM BCU 8 *******
+
+MirrorCtrl_76334   |ERR|      1240|2021-05-29 08:07:04.184816| BCUCOMMANDHANDLER_5_P3 > BcuCommandHandler::handleBcuReply: REQUEST COMPLETED but FAILED :-(
+
+MirrorCtrl_76334   |ERR|      1241|2021-05-29 08:07:04.184960| BCUCOMMANDHANDLER_5_P3 > Client timed-out: impossible to attach to the shared memory !
+
+MirrorCtrl_76334   |ERR|      1242|2021-05-29 08:07:04.185014| BCUCOMMANDHANDLER_5_P3 > BcuCommandHandler::handleBcuRequest: REQUEST FAILED
+
+adamHousekeeper_76311|INF|     24258|2021-05-29 08:07:04.248686|             FAST > Processed     1 cycles of    23 vars in   1.03 s ( 0.973 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24259|2021-05-29 08:07:04.263048|             MAIN > Adam in status:  1:1:0:0:1:1:1:1
+
+adamHousekeeper_76311|INF|     24260|2021-05-29 08:07:04.280548|             MAIN > Adam out status: 1:1:1:0:1:0:0:1
+
+MirrorCtrl_76334   |ERR|      1243|2021-05-29 08:07:04.453020|             MAIN > ******** FAILED PACKET FROM BCU 2 *******
+
+idl_ctrl_76419     |INF|     13865|2021-05-29 08:07:04.930422|             MAIN > Ok. All Crate Bcus are ready
+
+idl_ctrl_76419     |INF|     13866|2021-05-29 08:07:04.930473|             MAIN > Waiting for Switch Bcu ready...
+
+adamHousekeeper_76311|INF|     24261|2021-05-29 08:07:05.281136|             FAST > Processed     1 cycles of    23 vars in   1.03 s ( 0.969 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24262|2021-05-29 08:07:05.294629|             MAIN > Adam in status:  1:1:0:0:1:1:1:1
+
+adamHousekeeper_76311|INF|     24263|2021-05-29 08:07:05.311059|             MAIN > Adam out status: 1:1:1:0:1:0:0:1
+
+housekeeper_76462  |ERR|      7949|2021-05-29 08:07:05.706794|             MAIN > Timeout reading BCUs:  [CommandSenderTimeoutException] Timeout expired [HouseKeeper.cpp:2636]
+
+MirrorCtrl_76334   |ERR|      1244|2021-05-29 08:07:06.208515|             MAIN > ******** FAILED PACKET FROM BCU 2 *******
+
+MirrorCtrl_76334   |ERR|      1245|2021-05-29 08:07:06.208606| BCUCOMMANDHANDLER_2_P3 > BcuCommandHandler::handleBcuReply: REQUEST COMPLETED but FAILED :-(
+
+MirrorCtrl_76334   |ERR|      1246|2021-05-29 08:07:06.208726| BCUCOMMANDHANDLER_2_P3 > Client timed-out: impossible to attach to the shared memory !
+
+MirrorCtrl_76334   |ERR|      1247|2021-05-29 08:07:06.208769| BCUCOMMANDHANDLER_2_P3 > BcuCommandHandler::handleBcuRequest: REQUEST FAILED
+
+adamHousekeeper_76311|INF|     24264|2021-05-29 08:07:06.311567|             FAST > Processed     1 cycles of    23 vars in   1.03 s ( 0.971 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24265|2021-05-29 08:07:06.325644|             MAIN > Adam in status:  1:1:0:0:1:1:1:1
+
+adamHousekeeper_76311|INF|     24266|2021-05-29 08:07:06.342622|             MAIN > Adam out status: 1:1:1:0:1:0:0:1
+
+idl_ctrl_76419     |INF|     13867|2021-05-29 08:07:07.212403|             MAIN > Ok.  Switch Bcu is ready
+
+idl_ctrl_76419     |INF|     13868|2021-05-29 08:07:07.212628|             MAIN > housekeeper.L test started.
+
+housekeeper_76462  |ERR|      7950|2021-05-29 08:07:07.224098| FUNCTEMERGENCYSTOP > BCUVOLTAGEVCCP-0000 = -0.0372838  [Funct.cpp:95]
+
+housekeeper_76462  |INF|      7951|2021-05-29 08:07:07.224175|      ADAM-MODBUS > AdamModbus: disabling coils...
+
+housekeeper_76462  |INF|      7952|2021-05-29 08:07:07.239742| FUNCTEMERGENCYSTOP > [FunctEmergencyStop] try to send Alert to AdSec Arbitrator  [Funct.cpp:124]
+
+housekeeper_76462  |INF|      7953|2021-05-29 08:07:07.258466| FUNCTEMERGENCYSTOP > [FunctEmergencyStop] Alert to AdSec Arbitrator succesfully sent! [Funct.cpp:134]
+
+python_95334       |ERR|        25|2021-05-29 08:07:07.261129|             MAIN > Alert from AdSec [0] - Error
+
+python_95334       |DEB|        26|2021-05-29 08:07:07.261212|             MAIN > Sending to 3 clients: Error
+
+housekeeper_76462  |WAR|      7954|2021-05-29 08:07:07.261565|     FUNCTWARNING > FunctWarning DSPFFUDCURRENT-0125 nan
+
+adamHousekeeper_76311|INF|     24267|2021-05-29 08:07:07.343210|             FAST > Processed     1 cycles of    23 vars in   1.03 s ( 0.969 Hz). HW frame rate      10 [DiagnApp.cpp:832]
+
+adamHousekeeper_76311|INF|     24268|2021-05-29 08:07:07.360911|             MAIN > Adam in status:  1:1:0:0:1:1:1:1
+
+adamHousekeeper_76311|INF|     24269|2021-05-29 08:07:07.379200|             MAIN > Adam out status: 1:1:1:0:1:0:0:1
+
+housekeeper_76462  |INF|      7955|2021-05-29 08:07:08.272478|             MAIN > forcing telemetry output due to dump signal [HouseKeeper.cpp]
+
+housekeeper.L      |INF|     78691|2021-05-29 08:07:08.278566| BCUCoolerIn0Temp > 21.4424 22.0591 20.483 22.3277 20.7267 22.5658 
+
+housekeeper.L      |INF|     78692|2021-05-29 08:07:08.281603|   BCUCurrentVCCA > 2.71247 1.46436 1.42717 1.46698 1.45899 1.4717 
+
+housekeeper.L      |INF|     78693|2021-05-29 08:07:08.284521|   BCUCurrentVCCL > 21.6177 23.3144 21.7897 28.3013 22.6689 22.0329 
+
+housekeeper.L      |INF|     78694|2021-05-29 08:07:08.287462|   BCUCurrentVCCP > 12.8452 12.2176 13.3698 11.8284 0.113721 12.5404 
+
+housekeeper.L      |INF|     78695|2021-05-29 08:07:08.290323|   BCUCurrentVSSA > -1.52982 -1.2996 -1.30081 -1.38112 -1.44917 -1.28308 
+
+housekeeper.L      |INF|     78696|2021-05-29 08:07:08.293261|   BCUCurrentVSSP > -1.63244 -1.78164 -1.4349 -1.97821 -23.2429 -1.96684 
+
+housekeeper.L      |INF|     78697|2021-05-29 08:07:08.296722| BCUDigitalIOOvercurrent > 1 1 1 1 1 1 
+
